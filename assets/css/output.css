@@ -1,28 +1,76 @@
+#myvideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: -100; }
+
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100; }
+
 /* The animation code */
 @keyframes example {
   0% {
-    background-color: red; }
+    font-size: 2vw; }
+  5% {
+    font-size: 2.25vw; }
+  10% {
+    font-size: 2.5vw; }
+  15% {
+    font-size: 2.75vw; }
   20% {
-    background-color: yellow; }
+    font-size: 3vw; }
+  25% {
+    font-size: 3.25vw; }
+  30% {
+    font-size: 3.5vw; }
+  35% {
+    font-size: 3.75vw; }
   40% {
-    background-color: purple; }
+    font-size: 4vw; }
+  45% {
+    font-size: 4.25vw; }
+  50% {
+    font-size: 4.5vw; }
+  55% {
+    font-size: 4.75vw; }
   60% {
-    background-color: blue; }
+    font-size: 5vw; }
+  65% {
+    font-size: 5.25vw; }
+  70% {
+    font-size: 5.5vw; }
+  75% {
+    font-size: 5.75vw; }
   80% {
-    background-color: brown; }
+    font-size: 6vw; }
+  85% {
+    font-size: 6.25vw; }
+  90% {
+    font-size: 6.5vw; }
+  95% {
+    font-size: 6.75vw; }
   100% {
-    background-color: green; } }
+    font-size: 7vw; } }
 /* The element to apply the animation to */
-div {
+.mytitle {
   animation-name: example;
-  animation-duration: 8s;
+  animation-duration: 2s;
   animation-direction: alternate-reverse;
-  animation-iteration-count: 2; }
+  animation-iteration-count: infinite; }
 
-.rays {
-  width: 80vmin;
-  height: 80vmin;
-  border-radius: 50%;
-  background: linear-gradient(#b53, #f90); }
+ptitle {
+  font-weight: 600;
+  text-shadow: -1px -1px 0 #333399, 1px -1px 0 #333399, -1px 1px 0 #333399, 1px 1px 0 #333399; }
+
+footer {
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white; }
 
 /*# sourceMappingURL=output.css.map */

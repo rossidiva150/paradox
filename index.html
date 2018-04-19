@@ -2,8 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
-
+    <title>PARADOX</title>
+    <link rel="icon" href="assets/images/city.ico">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/output.css" />
@@ -11,21 +11,69 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   </head>
   <body>
+    <!-- navigation                   ----------------------->
+    <nav class="navbar navbar-expand-lg navbar-light .bg-secondary">
+      <img src="assets/images/city.ico" width="30" height="30" class="d-inline-block align-top navbar-brand" alt="city" />
+      <a class="navbar-brand" href="index.html">PARADOX</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Current Timeline <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Time Lines
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="ohistory.html">Original Timeline</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="two_history.html">2 Histories Ago</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="one_history.html">Previous History</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="user_account.html">Account</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="directions.html">Directions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="faq.html">FAQ's</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+<!--   End Navbar ------------------------------------------------------------------>
+
+    <div class='fullscreen-bg'>
+      <video autoplay muted loop id="myvideo">
+        <source src="assets/images/city.mp4" type="video/mp4">
+      </video>
+    </div>
     <div class="container-fluid main">
       <section class="home">
-        <div class="row justify-content-center">
-          <div class="col-xs-auto">
-            <h1 class="mytitle text-center">PARADOX</h1>
-          </div>
+        <div class='d-flex justify-content-center'>
+          <h1 class='ptitle'>Current History</h1>
         </div>
-        <!-- <div class="row justify-content-center myview">
-          <div class="col-xs-auto">
-            <div class='rays'></div>
-          </div>
-        </div> -->
 
+
+
+
+
+
+
+          <footer class="d-flex ">
+            <h3 class="fixed-bottom text-center mytitle">PARADOX</h1>
+          </footer>
       </section>
-
     </div>
 
 
