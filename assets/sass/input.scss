@@ -23,36 +23,126 @@ $titleTextColor: #333399;
 /* The animation code */
 @keyframes example {
     0%   {font-size: 2vw;}
+          // transform: rotateY(-180deg);}
+    1%   {font-size: 2.05vw;}
+    2%   {font-size: 2.1vw;}
+    3%   {font-size: 2.15vw;}
+    4%   {font-size: 2.2vw;}
     5%   {font-size: 2.25vw;}
+    6%   {font-size: 2.3vw;}
+    7%   {font-size: 2.35vw;}
+    8%   {font-size: 2.4vw;}
+    9%   {font-size: 2.45vw;}
     10%   {font-size: 2.5vw;}
+    11%   {font-size: 2.55vw;}
+    12%   {font-size: 2.6vw;}
+    13%   {font-size: 2.65vw;}
+    14%   {font-size: 2.7vw;}
     15%   {font-size: 2.75vw;}
+    16%   {font-size: 2.8vw;}
+    17%   {font-size: 2.85vw;}
+    18%   {font-size: 2.9vw;}
+    19%   {font-size: 2.95vw;}
     20%  {font-size: 3vw;}
+    21%   {font-size: 3.05vw;}
+    22%   {font-size: 3.1vw;}
+    23%   {font-size: 3.15vw;}
+    24%   {font-size: 3.2vw;}
     25%   {font-size: 3.25vw;}
+          // transform: rotateY(180deg);}
+    26%   {font-size: 3.3vw;}
+    27%   {font-size: 3.35vw;}
+    28%   {font-size: 3.4vw;}
+    29%   {font-size: 3.45vw;}
     30%   {font-size: 3.5vw;}
+    31%   {font-size: 3.55vw;}
+    32%   {font-size: 3.6vw;}
+    33%   {font-size: 3.65vw;}
+    34%   {font-size: 3.7vw;}
     35%   {font-size: 3.75vw;}
+    36%   {font-size: 3.8vw;}
+    37%   {font-size: 3.85vw;}
+    38%   {font-size: 3.9vw;}
+    39%   {font-size: 3.95vw;}
     40%  {font-size: 4vw;}
+    41%  {font-size: 4.05vw;}
+    42%  {font-size: 4.1vw;}
+    43%  {font-size: 4.15vw;}
+    44%  {font-size: 4.2vw;}
     45%   {font-size: 4.25vw;}
+    46%  {font-size: 4.3vw;}
+    47%  {font-size: 4.35vw;}
+    48%  {font-size: 4.4vw;}
+    49%  {font-size: 4.45vw;}
     50%   {font-size: 4.5vw;}
+          // -webkit-transform: scaleX(-1);
+          // transform: rotateX(-1);}
+    51%   {font-size: 4.55vw;}
+    52%   {font-size: 4.6vw;}
+    53%   {font-size: 4.65vw;}
+    54%   {font-size: 4.7vw;}
     55%   {font-size: 4.75vw;}
+    56%   {font-size: 4.8vw;}
+    57%   {font-size: 4.85vw;}
+    58%   {font-size: 4.9vw;}
+    59%   {font-size: 4.95vw;}
     60%  {font-size: 5vw;}
+    61%  {font-size: 5.05vw;}
+    62%  {font-size: 5.1vw;}
+    63%  {font-size: 5.15vw;}
+    64%  {font-size: 5.2vw;}
     65%   {font-size: 5.25vw;}
+    66%  {font-size: 5.3vw;}
+    67%  {font-size: 5.35vw;}
+    68%  {font-size: 5.4vw;}
+    69%  {font-size: 5.45vw;}
     70%   {font-size: 5.5vw;}
+    71%   {font-size: 5.55vw;}
+    72%   {font-size: 5.6vw;}
+    73%   {font-size: 5.65vw;}
+    74%   {font-size: 5.7vw;}
     75%   {font-size: 5.75vw;}
+            // -webkit-transform: scaleX(-1);
+            // transform: rotateX(-1);}
+    76%   {font-size: 5.8vw;}
+    77%   {font-size: 5.85vw;}
+    78%   {font-size: 5.9vw;}
+    79%   {font-size: 5.95vw;}
     80%  {font-size: 6vw;}
+    81%  {font-size: 6.05vw;}
+    82%  {font-size: 6.1vw;}
+    83%  {font-size: 6.15vw;}
+    84%  {font-size: 6.2vw;}
     85%   {font-size: 6.25vw;}
+    86%  {font-size: 6.3vw;}
+    87%  {font-size: 6.35vw;}
+    88%  {font-size: 6.4vw;}
+    89%  {font-size: 6.45vw;}
     90%   {font-size: 6.5vw;}
+    91%   {font-size: 6.55vw;}
+    92%   {font-size: 6.6vw;}
+    93%   {font-size: 6.65vw;}
+    94%   {font-size: 6.7vw;}
     95%   {font-size: 6.75vw;}
+    96%   {font-size: 6.8vw;}
+    97%   {font-size: 6.85vw;}
+    98%   {font-size: 6.9vw;}
+    99%   {font-size: 6.95vw;}
     100% {font-size: 7vw;}
 }
 
 /* The element to apply the animation to */
 .mytitle {
     animation-name: example;
-    animation-duration: 2s;
+    animation-duration: 10s;
     animation-direction: alternate-reverse;
     animation-iteration-count: infinite;
 }
 
+.mytitle:hover {
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+}
 
 .ptitle {
   font-size: 4vw;
