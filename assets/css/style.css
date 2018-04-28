@@ -23,6 +23,20 @@ a {
   text-decoration: none;
 }
 
+.mynavbar, .mynavdrop {
+  font-size: 1.8vw;
+}
+
+.mynavbrand {
+  font-size: 2vw;
+}
+
+.mynavimg {
+  width: 7vw;
+  height: 3.5vw;
+  padding-bottom: 0.85vw;
+}
+
 /* --------------------------------
 
 Main Components
@@ -162,7 +176,53 @@ Main Components
 .cd-horizontal-timeline .events a.older-event::after {
   border-color: #7b9d6f;
 }
-@media only screen and (min-width: 1100px) {
+
+@media screen and (max-width: 376px) {
+  .mynavbar, .mynavdrop {
+    font-size: 8vw;
+  }
+  .mynavbrand {
+    font-size: 10vw;
+  }
+  .mynavimg {
+    width: 15vw;
+    height: 7.5vw;
+    padding-bottom: 1.5vw;
+  }
+}
+
+@media screen and (min-width: 377px) and (max-width: 415px) {
+  .mynavbar, .mynavdrop {
+    font-size: 4.5vw;
+  }
+
+  .mynavbrand {
+    font-size: 6vw;
+  }
+
+  .mynavimg {
+    width: 16vw;
+    height: 8vw;
+    padding-bottom: 1.8vw;
+  }
+}
+
+@media screen and (min-width: 416px) and (max-width: 736px) {
+  .mynavbar, .mynavdrop {
+    font-size: 3.5vw;
+  }
+
+  .mynavbrand {
+    font-size: 5vw;
+  }
+
+  .mynavimg {
+    width: 15vw;
+    height: 7.5vw;
+    padding-bottom: 1.5vw;
+  }
+}
+@media screen and (min-width: 1100px) {
   .cd-horizontal-timeline {
     margin: 6em auto;
   }
@@ -323,7 +383,7 @@ Main Components
 .cd-horizontal-timeline .events-content em, .cd-horizontal-timeline .events-content p {
   line-height: 1.6;
 }
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .cd-horizontal-timeline .events-content h2 {
     font-size: 7rem;
   }
