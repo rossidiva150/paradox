@@ -226,6 +226,14 @@
   animation-direction: alternate-reverse;
   animation-iteration-count: infinite; }
 
+.mybkgd {
+  background-color: #e6e6ff;
+  opacity: 0.9; }
+
+.myh3 {
+  font-weight: 700;
+  font-size: 1.6vw; }
+
 .mytitle:hover {
   -webkit-transform: scaleY(-1);
   transform: scaleY(-1); }

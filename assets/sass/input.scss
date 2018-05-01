@@ -1,6 +1,7 @@
 $mainBackground: red;
 $appTextColor: white;
 $titleTextColor: #333399;
+$textbackground: #e6e6ff;
 
 #myvideo {
   position: absolute;
@@ -139,6 +140,14 @@ $titleTextColor: #333399;
     animation-iteration-count: infinite;
 }
 
+.mybkgd {
+  background-color: $textbackground;
+  opacity: 0.9;
+}
+.myh3 {
+  font-weight: 700;
+  font-size: 1.6vw;
+}
 .mytitle:hover {
   -webkit-transform: scaleY(-1);
   transform: scaleY(-1);
