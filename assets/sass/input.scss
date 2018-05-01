@@ -143,10 +143,15 @@ $textbackground: #e6e6ff;
 .mybkgd {
   background-color: $textbackground;
   opacity: 0.9;
+  border-radius: 0.9vw;
 }
 .myh3 {
   font-weight: 700;
   font-size: 1.6vw;
+}
+.myh4 {
+  font-weight: 600;
+  font-size: 1.5vw;
 }
 .mytitle:hover {
   -webkit-transform: scaleY(-1);
