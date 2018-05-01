@@ -6,6 +6,11 @@
   min-height: 100vh;
   z-index: -100; }
 
+.activebkgd {
+  background-color: #f0c2e0;
+  padding: 2vw;
+  border-radius: 0.9vw; }
+
 .fullscreen-bg {
   position: fixed;
   top: 0;
@@ -231,6 +236,12 @@
   opacity: 0.9;
   border-radius: 0.9vw; }
 
+.mybkgd1 {
+  background-color: #e6e6ff;
+  opacity: 0.9;
+  border-radius: 0.9vw;
+  padding: 2vw; }
+
 .myh3 {
   font-weight: 700;
   font-size: 1.6vw; }
@@ -238,6 +249,16 @@
 .myh4 {
   font-weight: 600;
   font-size: 1.5vw; }
+
+.mybtn {
+  font-weight: 600;
+  font-size: 1.7vw;
+  color: #6a6aaf; }
+
+.bigl {
+  font-size: 2.1vw;
+  font-weight: 900;
+  color: #363663; }
 
 .mytitle:hover {
   -webkit-transform: scaleY(-1);
